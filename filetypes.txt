@@ -1,0 +1,31 @@
+File name	File Type
+-----------------------
+file.php	PHP File
+file.js	JavaScript file
+file.bat	Batch file
+file.md	MarkDown file
+file.css	CSS file
+file.html	HTML file
+file.cmd	Command file
+file.ps1	Powershell file
+file.sh	Shell file
+file.aspx	ASP.Net file
+file.json	JSON file
+file.yml / file.yaml	YAML file
+file.java	JAVA file
+file.sln	DOTNET Solution file
+file.psm	Powershell Module file
+file.csproj	C# Project file
+file.zip	WINZIP file
+file.rar	WINRAR file
+file.sql	SQL Query file
+file.jar / file.war	JAVA Output file
+file.dll	DOTNET output file
+file.7z	7z file
+file.py	Python file
+file.txt	Text file
+file.tf	Terraform file
+Jenkinsfile	Jenkins pipeline file in Groovy language
+Dockerfile	Docker Image file 
+file.xml	XML file
+file.config	Configuration file
