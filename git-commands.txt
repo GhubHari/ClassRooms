@@ -1,0 +1,18 @@
+git status - to check whether it is a git repository or not
+git init - to initialize git process on the specific folder
+         - this will create a hidden folder named .git 
+If you converted some wrong folder to git , then you need to delete the .git folder
+Create some files and try to add them
+git add - to add the files to stage (converting untracked file to tracked mode)
+git add <filename> - to add single file
+git add . (or) git add -A - to add multiple files
+git commit - to commit the changes by giving message in vim editor
+git commit -m 'sample message' - to give message within the command 
+git branch - to check the branches
+git branch <newbranch> - to create new branch
+git checkout <newbranch> - to enter new branch
+git rm --cache <file> (or) git restore --staged <file> - to bring back the staged file to unstage
+git log - to check the commits
+git reflog - to check only the reference of the commits
+ls - to list the files
+pwd - print working directory to see the current working folder
