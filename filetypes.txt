@@ -14,7 +14,7 @@ file.json	JSON file
 file.yml / file.yaml	YAML file
 file.java	JAVA file
 file.sln	DOTNET Solution file
-file.psm	Powershell Module file
+file.psm1	Powershell Module file
 file.csproj	C# Project file
 file.zip	WINZIP file
 file.rar	WINRAR file
