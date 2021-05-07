@@ -8,11 +8,43 @@ git add <filename> - to add single file
 git add . (or) git add -A - to add multiple files
 git commit - to commit the changes by giving message in vim editor
 git commit -m 'sample message' - to give message within the command 
+git commit -a -m <message> - add files and commit in single command (this work only with modification, if new file created you need to add)
 git branch - to check the branches
 git branch <newbranch> - to create new branch
 git checkout <newbranch> - to enter new branch
+git checkout -b <branchname> - to create branch and checkout into that
+git branch -d <branchname> - to delete branch
+git branch -D <branchname> - to delete branch without merge
+git branch -m <newname> - to rename branch
 git rm --cache <file> (or) git restore --staged <file> - to bring back the staged file to unstage
 git log - to check the commits
+git log --oneline - to get commits in oneline
+git log -n <number> - to get specific number of commits
+git log --before or --after <date> - to get commits before or after dates
+git log <filename> - to get commits on the specific file
+git log --author - to get commits from the specific user
 git reflog - to check only the reference of the commits
-ls - to list the files
-pwd - print working directory to see the current working folder
+git remote - to check the remotes
+git remote -v - show the url of the remote
+git remote show <remotename> - show the details about remote
+git remote add <remotename> <remoteurl> - to add remote 
+git fetch - to fetch changes from remote branchs (this only fetches but not merges)
+git merge - to merge the fetched changes
+git pull - this will fetch changes and merges with local 
+git push - to push changes to remote
+git pull <remote> <branch> - to pull changes from specific branch
+git push <remote> <branch> - to push changes to specific branch
+git show <commitid> - to see details of commit
+git diff <commit1> <commit2> - to see difference between two commits
+git tag <tagname> - to create tags
+git checkout <tagname> - to checkout into tag and work on that
+git push <remote> <tagname> - to push tags to remote
+git switch -c <newbranch> - to create a branch from the changes made in tag
+git checkout <commitid> - to checkout into specific commit
+git cherry-pick <commitid> - to get the changes made in the commit
+git config user.name - to see the user name for the git session
+git config user.email - to see the mail id of the user 
+git config user.name "<name>" - to set the new user name
+git config user.email "<email>" - to set the new mail for the user (this will be used when you try to push)
+git merge <branchname> - to merge changes from other branch
+git rebase <branchname> - to merge changes without merge commit and linear history (never do this unless you asked to do)
