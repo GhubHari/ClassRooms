@@ -29,3 +29,5 @@ Jenkinsfile	Jenkins pipeline file in Groovy language
 Dockerfile	Docker Image file 
 file.xml	XML file
 file.config	Configuration file
+file.cs   C# file
+
