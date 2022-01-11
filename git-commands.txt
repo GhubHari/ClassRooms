@@ -3,6 +3,7 @@ git init - to initialize git process on the specific folder
          - this will create a hidden folder named .git 
 If you converted some wrong folder to git , then you need to delete the .git folder
 Create some files and try to add them
+touch <filename> - to create a file in the directory
 git add - to add the files to stage (converting untracked file to tracked mode)
 git add <filename> - to add single file
 git add . (or) git add -A - to add multiple files
@@ -48,3 +49,6 @@ git config user.name "<name>" - to set the new user name
 git config user.email "<email>" - to set the new mail for the user (this will be used when you try to push)
 git merge <branchname> - to merge changes from other branch
 git rebase <branchname> - to merge changes without merge commit and linear history (never do this unless you asked to do)
+git restore <filename> - to bring back the staged file to previous condition
+git revert <commit> - to revert the committed changes
+git reset <commit> or <HEAD> - to reset the repo to a specifit commit
