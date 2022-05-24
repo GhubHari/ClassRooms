@@ -1,11 +1,10 @@
-
 Usage:  docker [OPTIONS] COMMAND
 
 A self-sufficient runtime for containers
 
 Options:
       --config string      Location of client config files (default
-                           "C:\\Users\\RANJITH\\.docker")
+                           "C:\\Users\\RMUDDAMS\\.docker")
   -c, --context string     Name of the context to use to connect to the
                            daemon (overrides DOCKER_HOST env var and
                            default context set with "docker context use")
@@ -16,18 +15,18 @@ Options:
                            (default "info")
       --tls                Use TLS; implied by --tlsverify
       --tlscacert string   Trust certs signed only by this CA (default
-                           "C:\\Users\\RANJITH\\.docker\\ca.pem")
+                           "C:\\Users\\RMUDDAMS\\.docker\\ca.pem")
       --tlscert string     Path to TLS certificate file (default
-                           "C:\\Users\\RANJITH\\.docker\\cert.pem")
+                           "C:\\Users\\RMUDDAMS\\.docker\\cert.pem")
       --tlskey string      Path to TLS key file (default
-                           "C:\\Users\\RANJITH\\.docker\\key.pem")
+                           "C:\\Users\\RMUDDAMS\\.docker\\key.pem")
       --tlsverify          Use TLS and verify the remote
   -v, --version            Print version information and quit
 
 Management Commands:
-  app*        Docker App (Docker Inc., v0.9.1-beta3)
   builder     Manage builds
-  buildx*     Build with BuildKit (Docker Inc., v0.5.1-docker)
+  buildx*     Docker Buildx (Docker Inc., v0.8.2)
+  compose*    Docker Compose (Docker Inc., v2.4.1)
   config      Manage Docker configs
   container   Manage containers
   context     Manage contexts
@@ -36,7 +35,8 @@ Management Commands:
   network     Manage networks
   node        Manage Swarm nodes
   plugin      Manage plugins
-  scan*       Docker Scan (Docker Inc., v0.5.0)
+  sbom*       View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc., 0.6.0)
+  scan*       Docker Scan (Docker Inc., v0.17.0)
   secret      Manage Docker secrets
   service     Manage services
   stack       Manage Docker stacks
@@ -88,5 +88,4 @@ Commands:
   wait        Block until one or more containers stop, then print their exit codes
 
 Run 'docker COMMAND --help' for more information on a command.
-
-[1mTo get more help with docker, check out our guides at https://docs.docker.com/go/guides/[0m
+To get more help with docker, check out our guides at https://docs.docker.com/go/guides/
