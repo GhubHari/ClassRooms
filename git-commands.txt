@@ -32,7 +32,7 @@ git remote add <remotename> <remoteurl> - to add remote
 git fetch - to fetch changes from remote branchs (this only fetches but not merges)
 git merge - to merge the fetched changes
 git pull - this will fetch changes and merges with local 
-git push - to push changes to remote
+git push - to push changes to remote repos
 git pull <remote> <branch> - to pull changes from specific branch
 git push <remote> <branch> - to push changes to specific branch
 git show <commitid> - to see details of commit
